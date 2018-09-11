@@ -1,2 +1,2 @@
 # JS_learn
-Practice project to practice webpage scripting.
+My personal practice project to practice webpage scripting.
