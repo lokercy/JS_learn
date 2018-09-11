@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<title>Google Map API Practice</title>
+</head>
+
+<body>
+	<h1>My Google Map API Practice</h1>
+	<div id="googleMap" style="width:100%;height:400px;"></div>
+	<script>
+		function myMap() {
+		var mapProp = {
+			center: new google.map.LatLng(51.508742,-0.120850),
+			zoom:5,
+		};
+		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</body>
+</html>

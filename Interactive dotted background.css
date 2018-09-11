@@ -1,0 +1,56 @@
+body {
+	margin: 5px;
+	font-size: 100%;
+}
+
+footer {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background-color: #eeeeee;
+	font-size: .8em;
+	color: #5540B2;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	padding: 10px;
+	line-height: 1.1;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 2px 4px #aaaaaa, 0px 8px 10px #bbbbbb;
+}
+
+h1 {
+	font-size: 1.6em;
+	color: #312566;
+}
+
+h2 {
+	font-size: 1.0em;
+	color: #43338C;
+	line-height: 1.2;
+
+}
+
+p {
+	margin-left: 30px;
+	padding-left: 15px;
+}
+
+ul {
+	margin-left: 25px;
+	padding-left: 15px;
+	border-left: 5px solid;
+}
+
+.debug {
+	border-left-color: red;
+}
+
+.new {
+	border-left-color: green;
+}
+
+.corner {
+	background-color: white;
+	float: right;
+	padding-right: 20px;
+}
